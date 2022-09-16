@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: 在StorageGRID Cloud Manager中瞭解管理功能更新。 
+---
+= 更新功能StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在StorageGRID Cloud Manager中瞭解管理功能更新。
+
+
+
+== 2022年9月18日
+
+
+
+=== 支援StorageGRID 功能
+
+您現在StorageGRID 可以直接從Cloud Manager探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。

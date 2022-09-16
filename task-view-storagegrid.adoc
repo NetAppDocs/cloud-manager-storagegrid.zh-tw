@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task-view-storagegrid.html 
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota 
+summary: 探索StorageGRID 完您的功能性系統之後、您可以檢視容量分配的詳細資料、以及相關的警示、節點和租戶。 
+---
+= 檢視StorageGRID 您的系統
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+探索StorageGRID 完您的功能性系統之後、您可以檢視容量分配的詳細資料、以及相關的警示、節點和租戶。
+
+.步驟
+. 在「畫版」中、按兩下StorageGRID 您要檢視的「畫面」工作環境名稱。
+. 選取任一索引標籤、即可檢視StorageGRID 更多有關您的一套系統的詳細資料：
++
+** *總覽*：詳細檢視系統的容量分配（已用及可用容量）、系統警示數量、節點及租戶等資訊。
++
+image:screenshot-overview.png["「概述」索引標籤的快照StorageGRID 、位於整個作業環境中。"]
+
+** *警示*：系統警示摘要、其中包括作用中警示、已解決警示及靜音警示。
+** *節點*：管理節點、API閘道節點和儲存節點的詳細資料。這包括使用的物件資料百分比、使用的物件中繼資料、以及CPU使用率。
++
+image:screenshot-nodes.png["在整個作業環境中、節點索引標籤的快照StorageGRID 。"]
+
+** *租戶*：租戶的重要詳細資料、包括已使用的邏輯空間、配額使用率、配額和物件數。
++
+image:screenshot-tenants.png["「租戶」索引標籤的快照StorageGRID 、位於一個運作環境中。"]
+
+
+
+

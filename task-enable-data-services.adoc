@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
+summary: 在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務StorageGRID 搭配使用以進行備份和資料同步。 
+---
+= 搭配StorageGRID 使用NetApp資料服務
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務來進行備份和資料同步。
+
+* 使用* Cloud Backup *將內部部署ONTAP 的資料還原、以物件形式儲存在NetApp StorageGRID 系統中。
++
+若要開始使用、請前往「畫版」、將內部部署ONTAP 的「動作環境」拖放到StorageGRID 您的「工作環境」上。
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心"^]
+
+* 使用* Cloud Sync 《*》*將資料同步到StorageGRID 或從《*》系統中同步。
++
+若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。可為來源或目標。StorageGRID
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/index.html["深入瞭Cloud Sync 解功能"^]
+
+

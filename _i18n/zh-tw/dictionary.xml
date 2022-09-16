@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="d8115c3a0d36958b2dc6371f0596bd31" category="summary">在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務StorageGRID 搭配使用以進行備份和資料同步。</block>
+  <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">搭配StorageGRID 使用NetApp資料服務</block>
+  <block id="99211d9a136453b70c5891be3c9f4a44" category="paragraph">在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務來進行備份和資料同步。</block>
+  <block id="3822be2497c1c1e2e76ff4863e2d510e" category="list-text">使用* Cloud Backup *將內部部署ONTAP 的資料還原、以物件形式儲存在NetApp StorageGRID 系統中。</block>
+  <block id="7e995f90ad07a7b6c4bbd3ebeea051bb" category="paragraph">若要開始使用、請前往「畫版」、將內部部署ONTAP 的「動作環境」拖放到StorageGRID 您的「工作環境」上。</block>
+  <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">深入瞭解如何將內部部署ONTAP 的各項資料備份StorageGRID 到支援中心</block>
+  <block id="5848e24b55c702b7cc486314cd78f6dc" category="paragraph"><block ref="5848e24b55c702b7cc486314cd78f6dc" category="inline-link-rx"></block></block>
+  <block id="c2c9861dbf50fae669de81ff19a8e714" category="list-text">使用* Cloud Sync 《*》*將資料同步到StorageGRID 或從《*》系統中同步。</block>
+  <block id="d295ee26072b39ec669dd814d31c9a1e" category="paragraph">若要開始使用、請移至「畫版」、然後將來源工作環境拖放到目標工作環境。可為來源或目標。StorageGRID</block>
+  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">深入瞭Cloud Sync 解功能</block>
+  <block id="fcea636cb0627956ef5da173e7e82e53" category="paragraph"><block ref="fcea636cb0627956ef5da173e7e82e53" category="inline-link-rx"></block></block>
+  <block id="2cafdb15b131b36e54b11aecf95de3eb" category="summary">在StorageGRID Cloud Manager中瞭解管理功能更新。</block>
+  <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">更新功能StorageGRID</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">支援StorageGRID 功能</block>
+  <block id="2e9322f9d5b6c0a3474db4758b049aa0" category="paragraph">您現在StorageGRID 可以直接從Cloud Manager探索您的解決方案。探索StorageGRID 功能可讓您完整檢視混合式多雲端的資料。</block>
+  <block id="20ef63d96310e418922174cda82700cf" category="summary">Cloud Manager可在StorageGRID 內部部署環境中探索這些功能。在StorageGRID Cloud Manager中新增叢集可讓您完整檢視混合式多雲端中的資料。</block>
+  <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">探索StorageGRID 各種系統</block>
+  <block id="a252e3759b53abf6ef51975e3f291cf6" category="paragraph">Cloud Manager可在StorageGRID 內部部署環境中探索這些功能。在StorageGRID Cloud Manager中新增功能豐富的系統、可讓您完整檢視混合式多雲端的資料。</block>
+  <block id="a711863513c11f3a6d86294acc7be0ba" category="list-title">您需要的是 #8217 ；需要的是什麼</block>
+  <block id="031f2c2a8e686936eab9e36e2d0d5c66" category="list-text">連接器安裝在雲端供應商或內部部署環境中、可透過網路連線至StorageGRID 該系統。</block>
+  <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">深入瞭解連接器及如何建立連接器</block>
+  <block id="8604e02ef9173d1fcb905c94b3e7744f" category="paragraph"><block ref="8604e02ef9173d1fcb905c94b3e7744f" category="inline-link-rx"></block></block>
+  <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理節點的網域名稱或IP位址。</block>
+  <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理節點的管理認證。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="f7724c6cf62e295d95285d154eaf1a06" category="list-text">在「畫版」中、按一下「*新增工作環境*」、然後選取「*內部部署*」。</block>
+  <block id="7fd958d2cabd0884d2f06017cf1f56c4" category="list-text">選取* StorageGRID 《*》*《*下一步*》。</block>
+  <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">如果出現提示、請建立連接器。</block>
+  <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">如需詳細資料、請參閱上述連結。</block>
+  <block id="f50edfcfb42c3810a2ab7cdb0717f656" category="list-text">在「_ StorageGRID 此叢集詳細資料_」頁面上、輸入管理節點的網域名稱或IP位址、節點的認證資訊、然後按一下「*新增*」。</block>
+  <block id="b692c7e41f214f1934d82e1fb8c34551" category="inline-image-macro">螢幕快照會顯示StorageGRID 「叢集詳細資料」頁面、您可在此輸入管理節點的網域名稱或IP位址及認證資料。</block>
+  <block id="6f4e41dd41fcea233053f2ba61b3e93c" category="paragraph"><block ref="6f4e41dd41fcea233053f2ba61b3e93c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0a9a77891b8e70c43c8027941f8f8c47" category="paragraph">Cloud Manager會探索StorageGRID 整個系統、並將其新增為在Canvas.上的工作環境。</block>
+  <block id="7751122cf2f78c5c38ebae8a86a13558" category="inline-image-macro">在StorageGRID Cloud Manager Canvas.上顯示運作環境的快照。</block>
+  <block id="ad05e85ca472a43c0c711e7a9a42f891" category="paragraph"><block ref="ad05e85ca472a43c0c711e7a9a42f891" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">探索StorageGRID 完您的功能性系統之後、您可以檢視容量分配的詳細資料、以及相關的警示、節點和租戶。</block>
+  <block id="c20219c45cfba3fdfc2396d8aa96c143" category="doc">檢視StorageGRID 您的系統</block>
+  <block id="d3303815967fe0fbdde9310a5ce39f60" category="list-text">在「畫版」中、按兩下StorageGRID 您要檢視的「畫面」工作環境名稱。</block>
+  <block id="847dbe3b8f852409d936c93bfb31177b" category="list-text">選取任一索引標籤、即可檢視StorageGRID 更多有關您的一套系統的詳細資料：</block>
+  <block id="8cee006c52b25ffa341e9665d1f36032" category="list-text">*總覽*：詳細檢視系統的容量分配（已用及可用容量）、系統警示數量、節點及租戶等資訊。</block>
+  <block id="ae796f15b5a3a00075075c6caecd9cfc" category="inline-image-macro">「概述」索引標籤的快照StorageGRID 、位於整個作業環境中。</block>
+  <block id="364310a3a6741380a3adc72411a52d65" category="paragraph"><block ref="364310a3a6741380a3adc72411a52d65" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a78715e6a36fa2dcf6896248ccc058c" category="list-text">*警示*：系統警示摘要、其中包括作用中警示、已解決警示及靜音警示。</block>
+  <block id="88a1a574aabf262882af454484c4f44f" category="list-text">*節點*：管理節點、API閘道節點和儲存節點的詳細資料。這包括使用的物件資料百分比、使用的物件中繼資料、以及CPU使用率。</block>
+  <block id="62fac2d9fde29d69903d60965ae80e36" category="inline-image-macro">在整個作業環境中、節點索引標籤的快照StorageGRID 。</block>
+  <block id="320c3346e3e8a511e898b63029025992" category="paragraph"><block ref="320c3346e3e8a511e898b63029025992" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="91106c0a9a8679958f2d935850e42f7e" category="list-text">*租戶*：租戶的重要詳細資料、包括已使用的邏輯空間、配額使用率、配額和物件數。</block>
+  <block id="e51c4414740e4f4ba2e02bd06c8d9e88" category="inline-image-macro">「租戶」索引標籤的快照StorageGRID 、位於一個運作環境中。</block>
+  <block id="c99b6babe545010e47410b64d23e3096" category="paragraph"><block ref="c99b6babe545010e47410b64d23e3096" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
+  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">Cloud Manager 3.9 注意事項</block>
+  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="list-text"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
+  <block id="e2c2c17af726ff1e98fd9d46febbbf74" category="summary">如果StorageGRID 您不想再從Cloud Manager管理、請移除這個運作環境。</block>
+  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">移除StorageGRID 功能不正常的工作環境</block>
+  <block id="258cc430ad542cf521e937f5e65ac8f3" category="paragraph">移除工作環境並不會影響StorageGRID 到整個作業系統。您可以隨時從Cloud Manager重新探索。</block>
+  <block id="e2196663fe8ae041909eecbbe019e082" category="list-text">在「畫版」中、按兩下StorageGRID 「功能性環境」的名稱。</block>
+  <block id="b787a2a1998073d68d40ce850ecb5c3e" category="list-text">按一下功能表圖示、然後選取*從Workspace*移除。</block>
+  <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">工作環境右上角功能表中的「從工作區移除」選項快照。</block>
+  <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="40b851aafab82c78484c46169f816fd2" category="list-text">按一下「 * 移除 * 」以確認。</block>
+  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
+  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自我支援</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入Cloud Manager社群、追蹤後續討論或建立新討論。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
+  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您目前正在檢視的Cloud Manager文件。</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
+  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
+  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
+  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
+  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
+  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
+  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
+  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過 NetApp 技術支援服務開立支援案例之前，您必須先將 NetApp 支援網站帳戶新增至 Cloud Manager，然後登錄以取得支援。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
+  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">新增一個NSS帳戶</block>
+  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">「Support Dashboard（支援儀表板）」可讓您從單一位置新增及管理所有 NetApp 支援網站帳戶。</block>
+  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">註冊一項</block>
+  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">如果您還沒有 NetApp 支援網站帳戶，<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
+  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在Cloud Manager主控台右上角、按一下「說明」圖示、然後選取*「支援」*。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上，提供您的 NetApp 支援網站註冊電子郵件地址和密碼，以執行身分驗證程序。</block>
+  <block id="f5fb4199485234c409525f430b737010" category="paragraph">此動作可讓Cloud Manager使用您的NSS帳戶。</block>
+  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">附註：帳戶必須是客戶層級的帳戶（非來賓帳戶或臨時帳戶）。</block>
+  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">註冊您的帳戶以取得支援</block>
+  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支援註冊可從支援儀表板的Cloud Manager取得。</block>
+  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在* Resources（資源）*選項卡中，單擊* Register for Support*（註冊以獲得支持*）。</block>
+  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">選取您要登錄的NSS認證、然後按一下「*登錄*」。</block>
+  <block id="9268f95494e3c64b00b2b6e1664c2b8b" category="summary">透過StorageGRID Cloud Manager探索您的支援功能、完整檢視混合式多雲端的資料。</block>
+  <block id="3778f3873debfe11e2ace6bb6af1e417" category="doc">本文檔StorageGRID</block>
+  <block id="67d5dc044866a0ff55b817d754d94a3e" category="sidebar">文件StorageGRID</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">探索StorageGRID 您的系統</block>
+  <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">管理StorageGRID 功能系統</block>
+  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">移除StorageGRID 不需要的系統</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
+  <block id="5a48514fa915876d588438500b09c18f" category="sidebar">移除StorageGRID</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">更多資訊</block>
+  <block id="64ddc745342a0d340d406b6521027e76" category="sidebar">適用於Cloud Manager外部管理的文件StorageGRID</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central部落格</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
+</blocks>
