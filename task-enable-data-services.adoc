@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
 keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: 在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務StorageGRID 搭配使用以進行備份和資料同步。 
+summary: 在StorageGRID 您發現BlueXP中的一套功能完善的系統之後、您就可以使用NetApp的資料服務StorageGRID 搭配使用以進行備份和資料同步。 
 ---
 = 搭配StorageGRID 使用NetApp資料服務
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在StorageGRID Cloud Manager中發現一套功能完善的系統之後�
 
 
 [role="lead"]
-在StorageGRID Cloud Manager中發現一套功能完善的系統之後、您就可以使用NetApp的資料服務來進行備份和資料同步。
+在StorageGRID 您發現BlueXP中的一套功能完善的系統之後、您就可以使用NetApp的資料服務來進行備份和資料同步。
 
 * 使用* Cloud Backup *將內部部署ONTAP 的資料還原、以物件形式儲存在NetApp StorageGRID 系統中。
 +

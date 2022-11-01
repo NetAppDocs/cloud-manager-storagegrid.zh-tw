@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: Cloud Manager可在StorageGRID 內部部署環境中探索這些功能。在StorageGRID Cloud Manager中新增叢集可讓您完整檢視混合式多雲端中的資料。 
+summary: BlueXP可在StorageGRID 內部部署環境中探索此功能。在StorageGRID BlueXP中新增叢集可讓您完整檢視混合式多雲端中的資料。 
 ---
 = 探索StorageGRID 各種系統
 :hardbreaks:
@@ -13,7 +13,7 @@ summary: Cloud Manager可在StorageGRID 內部部署環境中探索這些功能�
 :imagesdir: ./media/
 
 
-Cloud Manager可在StorageGRID 內部部署環境中探索這些功能。在StorageGRID Cloud Manager中新增功能豐富的系統、可讓您完整檢視混合式多雲端的資料。
+BlueXP可在StorageGRID 內部部署環境中探索此功能。在StorageGRID BlueXP中新增支援功能系統、可讓您完整檢視混合式多雲端的資料。
 
 .您需要的是 #8217 ；需要的是什麼
 * 連接器安裝在雲端供應商或內部部署環境中、可透過網路連線至StorageGRID 該系統。
@@ -25,7 +25,8 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html[
 
 
 .步驟
-. 在「畫版」中、按一下「*新增工作環境*」、然後選取「*內部部署*」。
+. 從導覽功能表中、選取*儲存設備> Canvas*。
+. 按一下「*新增工作環境*」、然後選取「*內部部署*」。
 . 選取* StorageGRID 《*》*《*下一步*》。
 . 如果出現提示、請建立連接器。
 +
@@ -37,6 +38,6 @@ image:screenshot-cluster-details.png["螢幕快照會顯示StorageGRID 「叢集
 
 
 
-Cloud Manager會探索StorageGRID 整個系統、並將其新增為在Canvas.上的工作環境。
+BlueXP會探索StorageGRID 整個系統、並將其新增為在Canvas.上的工作環境。
 
-image:screenshot-canvas.png["在StorageGRID Cloud Manager Canvas.上顯示運作環境的快照。"]
+image:screenshot-canvas.png["在StorageGRID BlueXP畫版上顯示運作環境的快照。"]

@@ -50,17 +50,17 @@ homepage:
       url: task-remove-storagegrid.html
   - title: 更多資訊
     links:
-    - title: 適用於Cloud Manager外部管理的文件StorageGRID
+    - title: 適用於在BlueXP之外進行管理的文件StorageGRID
       url: https://docs.netapp.com/us-en/storagegrid-116/
   - title: 部落格社群
     links:
     - title: NetApp社群
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central部落格
+    - title: BlueXP部落格
       url: https://cloud.netapp.com/blog
     - title: 雲端網路研討會
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: 所有Cloud Manager文件
+  sidebar_label: 所有BlueXP文件
