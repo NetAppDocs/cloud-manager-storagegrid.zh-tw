@@ -9,14 +9,14 @@
   <meta property="og:title" content="取得協助 | NetApp Documentation" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/zh-tw/cloud-manager-storagegrid/task-get-help.html" />
-	<meta property="og:description" content="NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。" />
+	<meta property="og:description" content="NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。" />
   <meta property="og:image" content="https://docs.netapp.com/zh-tw/cloud-manager-storagegrid/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="NetApp以多種方式支援Cloud Manager。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。">
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。">
   <meta name="keywords" content=" help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue"><!-- Icons -->
   <link rel="icon" href="/zh-tw/cloud-manager-storagegrid/images/favicon.ico" type="image/x-icon">
 
@@ -143,6 +143,17 @@
               $("#mysidebar").navgoco('toggle', true);
           });
 
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/zh-tw/cloud-manager-storagegrid"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
+          });
+
       });
 
   </script>
@@ -256,6 +267,8 @@
         </a>
       </div>
 
+      
+      
       
       <div class="search-property-bar">
         <div id="search-demo-container" class="searchbox n-property-bar__search">
@@ -484,7 +497,7 @@
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
 </script><div class="prod-nav" id="product-nav">
-  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/zh-tw/cloud-manager-family/"><img src="/zh-tw/cloud-manager-storagegrid/images/left_arrow.png" alt=""><pre>所有Cloud Manager文件</pre></a>
+  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/zh-tw/cloud-manager-family/"><img src="/zh-tw/cloud-manager-storagegrid/images/left_arrow.png" alt=""><pre>所有BlueXP文件</pre></a>
 </div><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li 
       data-pdf-exists="true" 
@@ -508,7 +521,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 開始使用</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="探索StorageGRID 您的系統"
@@ -524,7 +537,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 管理StorageGRID 功能系統</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="檢視StorageGRID 您的系統"
@@ -554,7 +567,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 知識與支援</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="註冊以取得支援"
@@ -587,6 +600,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -610,7 +624,7 @@
 
         
         <li class="n-breadcrumb__list-item">
-          <a href="https://docs.netapp.com/zh-tw/cloud-manager-family/">Cloud Manager</a>
+          <a href="https://docs.netapp.com/zh-tw/cloud-manager-family/">BlueXP</a>
         </li>
         
 
@@ -646,7 +660,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-09-19 13:08:20 +0000">09/19/2022</time>
+    <time datetime="2022-11-01 15:16:00 +0000">11/01/2022</time>
     
   
 
@@ -659,7 +673,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>NetApp以多種方式支援Cloud Manager及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</p>
+<p>NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</p>
 </div>
 </div>
 </div>
@@ -674,25 +688,25 @@
 <li>
 <p><a href="https://kb.netapp.com/Advice_and_Troubleshooting/Cloud_Services" target="_blank" rel="noopener">"知識庫"</a></p>
 <div class="paragraph">
-<p>請搜尋Cloud Manager知識庫、找出有助於疑難排解問題的文章。</p>
+<p>請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</p>
 </div>
 </li>
 <li>
 <p><a href="http://community.netapp.com/" target="_blank" rel="noopener">"社群"</a></p>
 <div class="paragraph">
-<p>加入Cloud Manager社群、追蹤後續討論或建立新討論。</p>
+<p>歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</p>
 </div>
 </li>
 <li>
 <p>文件</p>
 <div class="paragraph">
-<p>您目前正在檢視的Cloud Manager文件。</p>
+<p>您目前正在檢視的BlueXP文件。</p>
 </div>
 </li>
 <li>
 <p>mailto：<a href="mailto:ng-cloudmanager-feedback@netapp.com">ng-cloudmanager-feedback@netapp.com</a> [意見反應電子郵件]</p>
 <div class="paragraph">
-<p>我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</p>
+<p>我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</p>
 </div>
 </li>
 </ul>
@@ -706,13 +720,13 @@
 <p>除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</p>
 </div>
 <div class="paragraph">
-<p>若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <a href="task-support-registration.html">"瞭解如何註冊以取得支援"</a>。</p>
+<p>若要使用*建立案例*功能、您必須先執行一次性註冊您的BlueXP帳戶ID序號（例如960xxxx）。 <a href="task-support-registration.html">"瞭解如何註冊以取得支援"</a>。</p>
 </div>
 <div class="olist arabic">
 <div class="title">步驟</div>
 <ol class="arabic">
 <li>
-<p>在Cloud Manager中、按一下*「說明」&gt;「支援」*。</p>
+<p>在BlueXP中、按一下*「說明」&gt;「支援」*。</p>
 </li>
 <li>
 <p>在「Technical Support（技術支援）」下選擇可用的選項之一：</p>
@@ -728,16 +742,16 @@
 <li>
 <p><strong>《支援帳戶</strong>》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</p>
 <div class="paragraph">
-<p>如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</p>
+<p>如果您看不到您的NSS帳戶、可以瀏覽至BlueXP「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</p>
 </div>
 </li>
 <li>
-<p><strong>服務</strong>：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</p>
+<p><strong>服務</strong>：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</p>
 </li>
 <li>
 <p><strong>工作環境</strong>：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《<strong>》或</strong>《內部部署*》、然後選取相關的工作環境。</p>
 <div class="paragraph">
-<p>工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</p>
+<p>工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</p>
 </div>
 </li>
 <li>
@@ -776,7 +790,7 @@
 <p>"您無權針對所選服務建立案例"</p>
 </div>
 <div class="paragraph">
-<p>此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</p>
+<p>此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</p>
 </div>
 <div class="ulist">
 <ul>
@@ -827,11 +841,7 @@
         <div class="n-footer__copyright">
           <ul class="n-footer__copyright-list">
             <li class="n-footer__copyright-link">
-              <span class="n-footer__fine-print">對我們的網站有任何意見或要求？</span>
-              <a target="_self" href="javascript:netapp_mailto()">請與我們聯絡</a>
-            </li>
-            <li class="n-footer__copyright-link">
-              <a href="https://docs.netapp.com/zh-tw/announcements/">公告</a>
+              <a target="_self" href="javascript:netapp_mailto()">傳送有關本網頁的意見反應</a>
             </li>
           </ul>
         </div>
